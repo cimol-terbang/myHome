@@ -146,7 +146,7 @@ onMounted(() => {
             honest about what they do. Clean logic, clear structure, no unnecessary noise.
           </p>
           <p>
-            Outside of code, I sometimes spend time exploring philosophy and theology, mostly out of curiosity and personal interest. I'm drawn to questions that don't have simple answers — what we owe each other, how belief shapes the way we see the world, and why some ideas survive for centuries while others fade away. I also enjoy discussions around these topics, especially conversations that challenge perspectives or explore different ways of thinking. Gaming shows up sometimes too, usually when I need to turn my brain off for a few hours.
+            Outside of code, I sometimes spend time exploring philosophy and theology, mostly out of curiosity and personal interest. I'm drawn to questions that don't have simple answers, what we owe each other, how belief shapes the way we see the world, and why some ideas survive for centuries while others fade away. I also enjoy discussions around these topics, especially conversations that challenge perspectives or explore different ways of thinking. Gaming shows up sometimes too, usually when I need to turn my brain off for a few hours.
           </p>
           <p>
             This site is a small corner of the internet that's mine. The notes app is where I write things
@@ -283,14 +283,34 @@ onMounted(() => {
 
           <!-- Reality -->
           <a
-            href="#"
-            class="link-card link-card--placeholder"
-            aria-label="Reality (coming soon)"
+            href="https://reality.app/profile/ee93e8e1?adj_t=8ogcewh_z9yhix5"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-card"
+            aria-label="Reality"
           >
-            <i class="pi pi-mobile link-card__icon"></i>
+            <span class="reality-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#60b8ff"/>
+                    <stop offset="45%" stop-color="#9b6bff"/>
+                    <stop offset="100%" stop-color="#ff2dcc"/>
+                  </linearGradient>
+                </defs>
+                <rect x="18" y="18" width="64" height="64" rx="18" ry="18"
+                  transform="rotate(45 50 50)"
+                  fill="url(#rg)"
+                />
+                <rect x="28" y="28" width="44" height="44" rx="12" ry="12"
+                  transform="rotate(45 50 50)"
+                  fill="white"
+                />
+              </svg>
+            </span>
             <div>
               <div class="link-card__label">Reality</div>
-              <div class="link-card__value">Android App</div>
+              <div class="link-card__value">haotian</div>
             </div>
           </a>
 
@@ -405,7 +425,7 @@ onMounted(() => {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 6rem 0 2rem;
+  padding: 6rem 0 0;
   position: relative;
   overflow: hidden;
 }
@@ -484,7 +504,7 @@ onMounted(() => {
 }
 
 .hero__scroll-hint {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   color: var(--mn-text-subtle);
   font-size: 1.1rem;
   animation: bounce 2.2s ease-in-out infinite;
@@ -853,6 +873,15 @@ onMounted(() => {
   font-size: 1.3rem;
   color: var(--mn-accent);
   opacity: 0.8;
+}
+
+.reality-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.3rem;
+  height: 1.3rem;
+  flex-shrink: 0;
 }
 
 .link-card__label {
