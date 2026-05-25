@@ -268,7 +268,7 @@ onMounted(() => {
 
           <!-- TODO: update with real link -->
           <a
-            href="https://instagram.com/haotian"
+            href="https://instagram.com/cimol.chwan"
             target="_blank"
             rel="noopener noreferrer"
             class="link-card"
@@ -277,7 +277,7 @@ onMounted(() => {
             <i class="pi pi-instagram link-card__icon"></i>
             <div>
               <div class="link-card__label">Instagram</div>
-              <div class="link-card__value">@haotian</div>
+              <div class="link-card__value">@cimol.chwan</div>
             </div>
           </a>
 
@@ -310,7 +310,7 @@ onMounted(() => {
             </span>
             <div>
               <div class="link-card__label">Reality</div>
-              <div class="link-card__value">haotian</div>
+              <div class="link-card__value">uɐı̣ʇoɐH</div>
             </div>
           </a>
 
@@ -318,7 +318,7 @@ onMounted(() => {
             <i class="pi pi-discord link-card__icon"></i>
             <div>
               <div class="link-card__label">Discord</div>
-              <div class="link-card__value">__haotian__</div>
+              <div class="link-card__value">__haotian</div>
             </div>
           </div>
 
