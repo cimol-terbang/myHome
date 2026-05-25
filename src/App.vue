@@ -181,8 +181,7 @@ onMounted(() => {
               <span class="badge badge--live">live</span>
             </div>
             <p class="project-card__desc">
-              A personal writing space for essays, poems, and stories. Built to be quiet and readable —
-              no distractions, just words.
+              A personal writing space for essays, poems, and stories.
             </p>
             <div class="project-card__stack">
               <span class="stack-badge">Vue 3</span>
@@ -206,7 +205,7 @@ onMounted(() => {
               <span class="badge badge--dev">in development</span>
             </div>
             <p class="project-card__desc">
-              An anonymous Q&amp;A platform — a place to ask things you might not ask out loud.
+              An anonymous Q&amp;A platform, a place to ask things you might not ask out loud.
             </p>
             <div class="project-card__stack">
               <span class="stack-badge">Vue 3</span>
