@@ -218,6 +218,26 @@ onMounted(() => {
       </div>
     </section>
 
+
+    <!-- mc -->
+          <article class="project-card project-card--muted">
+            <div class="project-card__header">
+              <h3 class="project-card__name">Minecraft addon</h3>
+              <span class="badge badge--dev">in development</span>
+            </div>
+            <p class="project-card__desc">
+              Just a custom Minecraft behavior pack.
+            </p>
+            <div class="project-card__stack">
+              <span class="stack-badge">bedrock</span>
+              <span class="stack-badge">javascript</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
     <!-- ── Writing ───────────────────────────────────────────────────────── -->
     <section class="section" id="writing" v-if="postsVisible">
       <div class="container">
