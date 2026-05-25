@@ -143,7 +143,7 @@ onMounted(() => {
           <p>
             I'm a backend-leaning developer who spends most of his time in JavaScript, APIs,
             databases, the kind of work that happens quietly behind the scenes. I like systems that are
-            honest about what they do. Clean logic, clear structure, no unnecessary noise.
+            honest about what they do. Clean logic, clear structure.
           </p>
           <p>
             Outside of code, I sometimes spend time exploring philosophy and theology, mostly out of curiosity and personal interest. I'm drawn to questions that don't have simple answers, what we owe each other, how belief shapes the way we see the world, and why some ideas survive for centuries while others fade away. I also enjoy discussions around these topics, especially conversations that challenge perspectives or explore different ways of thinking. Gaming shows up sometimes too, usually when I need to turn my brain off for a few hours.
@@ -157,11 +157,13 @@ onMounted(() => {
         <div class="about__tags">
           <span class="tag">JavaScript</span>
           <span class="tag">Node.js</span>
-          <span class="tag">MongoDB</span>
+          <span class="tag">Sveltekit</span>
           <span class="tag">Vue 3</span>
           <span class="tag">philosophy</span>
           <span class="tag">reading</span>
           <span class="tag">backend</span>
+          <span class="tag">Minecraft</span>
+          <span class="tag">Mobile Legend</span>
         </div>
       </div>
     </section>
