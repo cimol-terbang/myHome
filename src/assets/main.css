@@ -1,36 +1,36 @@
 /* ── CSS Variables ─────────────────────────────────────── */
 :root {
-  --mn-bg: #f8f7f4;
+  --mn-bg: #eef4fb;
   --mn-surface: #ffffff;
-  --mn-surface-2: #f1ede8;
-  --mn-border: #e8e2da;
-  --mn-text: #1a1a1a;
-  --mn-text-muted: #6b6560;
-  --mn-text-subtle: #9e9890;
-  --mn-accent: #7c6af7;
-  --mn-accent-hover: #6355e0;
-  --mn-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
-  --mn-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  --mn-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --mn-surface-2: #ddeaf7;
+  --mn-border: #c8ddf0;
+  --mn-text: #1a2a3a;
+  --mn-text-muted: #5a7a96;
+  --mn-text-subtle: #93b4cc;
+  --mn-accent: #3b82c4;
+  --mn-accent-hover: #2563a8;
+  --mn-shadow-sm: 0 1px 4px rgba(59, 130, 196, 0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --mn-shadow: 0 4px 18px rgba(59, 130, 196, 0.13);
+  --mn-shadow-lg: 0 8px 32px rgba(59, 130, 196, 0.18);
   --mn-radius: 16px;
-  --mn-radius-sm: 8px;
+  --mn-radius-sm: 10px;
   --mn-radius-xs: 6px;
   --mn-transition: 0.2s ease;
 }
 
 [data-theme='dark'] {
-  --mn-bg: #0f0f0f;
-  --mn-surface: #1a1a1a;
-  --mn-surface-2: #242424;
-  --mn-border: #2e2e2e;
-  --mn-text: #f0ede8;
-  --mn-text-muted: #a09890;
-  --mn-text-subtle: #6b6560;
-  --mn-accent: #9d8ff7;
-  --mn-accent-hover: #b8adf9;
-  --mn-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --mn-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --mn-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --mn-bg: #0d1520;
+  --mn-surface: #152030;
+  --mn-surface-2: #1c2d40;
+  --mn-border: #243a52;
+  --mn-text: #ddeeff;
+  --mn-text-muted: #7aaac8;
+  --mn-text-subtle: #3d6a8a;
+  --mn-accent: #60a5d8;
+  --mn-accent-hover: #93c5fd;
+  --mn-shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+  --mn-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  --mn-shadow-lg: 0 8px 28px rgba(0,0,0,0.6);
 }
 
 /* ── Reset & Base ──────────────────────────────────────── */
@@ -54,12 +54,17 @@ body {
     'Segoe UI',
     sans-serif;
   background: var(--mn-bg);
+  background-image: radial-gradient(circle, rgba(59,130,196,0.09) 1px, transparent 1px);
+  background-size: 24px 24px;
   color: var(--mn-text);
   line-height: 1.6;
-  transition:
-    background var(--mn-transition),
-    color var(--mn-transition);
+  transition: background var(--mn-transition), color var(--mn-transition);
   -webkit-font-smoothing: antialiased;
+}
+
+[data-theme='dark'] body {
+  background-image: radial-gradient(circle, rgba(96,165,216,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 
 /* ── Typography ────────────────────────────────────────── */
@@ -79,19 +84,10 @@ button {
 }
 
 /* ── Scrollbar ─────────────────────────────────────────── */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--mn-border);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--mn-text-subtle);
-}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--mn-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--mn-text-subtle); }
 
 /* ── Utility ───────────────────────────────────────────── */
 .container {
@@ -101,7 +97,5 @@ button {
 }
 
 @media (max-width: 640px) {
-  .container {
-    padding: 0 1rem;
-  }
+  .container { padding: 0 1rem; }
 }
