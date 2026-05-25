@@ -362,7 +362,7 @@ onMounted(() => {
 }
 
 .nav--scrolled {
-  background: rgba(255,255,255,0.88);
+  background: var(--nav-scrolled-bg);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 1px 0 var(--mn-border), 0 2px 16px rgba(59,130,196,0.08);

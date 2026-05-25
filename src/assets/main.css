@@ -16,6 +16,7 @@
   --mn-radius-sm: 10px;
   --mn-radius-xs: 6px;
   --mn-transition: 0.2s ease;
+  --nav-scrolled-bg: rgba(255, 255, 255, 0.88);
 }
 
 [data-theme='dark'] {
@@ -31,6 +32,7 @@
   --mn-shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
   --mn-shadow: 0 4px 16px rgba(0,0,0,0.5);
   --mn-shadow-lg: 0 8px 28px rgba(0,0,0,0.6);
+  --nav-scrolled-bg: rgba(13, 21, 32, 0.92);
 }
 
 /* ── Reset & Base ──────────────────────────────────────── */
