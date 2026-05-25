@@ -214,9 +214,6 @@ onMounted(() => {
             </div>
           </article>
 
-        </div>
-      </div>
-    </section>
 
 
     <!-- mc -->
