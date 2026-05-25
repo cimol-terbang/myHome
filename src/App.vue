@@ -141,15 +141,12 @@ onMounted(() => {
         <h2 class="section__title">about</h2>
         <div class="about__body">
           <p>
-            I'm a backend-leaning developer who spends most of his time in JavaScript — Node.js, APIs,
+            I'm a backend-leaning developer who spends most of his time in JavaScript, APIs,
             databases, the kind of work that happens quietly behind the scenes. I like systems that are
             honest about what they do. Clean logic, clear structure, no unnecessary noise.
           </p>
           <p>
-            Outside of code, I read a lot philosophy, theology, the occasional novel that takes too long
-            to finish. I find myself drawn to questions that don't have clean answers: what we owe each other,
-            how belief shapes the way we see the world, why some ideas survive centuries and others don't.
-            Gaming shows up sometimes too, usually when I need to turn my brain off for a few hours.
+            Outside of code, I sometimes spend time exploring philosophy and theology, mostly out of curiosity and personal interest. I'm drawn to questions that don't have simple answers — what we owe each other, how belief shapes the way we see the world, and why some ideas survive for centuries while others fade away. I also enjoy discussions around these topics, especially conversations that challenge perspectives or explore different ways of thinking. Gaming shows up sometimes too, usually when I need to turn my brain off for a few hours.
           </p>
           <p>
             This site is a small corner of the internet that's mine. The notes app is where I write things
