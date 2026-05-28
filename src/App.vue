@@ -354,7 +354,7 @@ onMounted(() => {
         <p class="links__note">
           want to ask something anonymously?
              <a
-              href="https://note.haotian.my.id"
+              href="https://ask.haotian.my.id"
               target="_blank"
               rel="noopener noreferrer"
             >
