@@ -353,7 +353,14 @@ onMounted(() => {
 
         <p class="links__note">
           want to ask something anonymously?
+             <a
+              href="https://note.haotian.my.id"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              
           <span class="links__note-accent">ask.haotian.my.id</span>
+               </a>
           is on its way.
         </p>
       </div>
