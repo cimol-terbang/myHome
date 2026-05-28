@@ -186,7 +186,7 @@ onMounted(() => {
             <div class="project-card__stack">
               <span class="stack-badge">Vue 3</span>
               <span class="stack-badge">Node.js</span>
-              <span class="stack-badge">MongoDB</span>
+              <span class="stack-badge">SqLIte3</span>
             </div>
             <a
               href="https://note.haotian.my.id"
@@ -202,15 +202,24 @@ onMounted(() => {
           <article class="project-card project-card--muted">
             <div class="project-card__header">
               <h3 class="project-card__name">ask.haotian</h3>
-              <span class="badge badge--dev">in development</span>
+              <span class="badge badge--live">live</span>
             </div>
             <p class="project-card__desc">
               An anonymous Q&amp;A platform, a place to ask things you might not ask out loud.
             </p>
             <div class="project-card__stack">
-              <span class="stack-badge">Vue 3</span>
+              <span class="stack-badge">Sveltekit</span>
               <span class="stack-badge">Node.js</span>
+              <span class="stack-badge">Postgresql</span>
             </div>
+               <a
+              href="https://ask.haotian.my.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-card__link"
+            >
+              visit <i class="pi pi-arrow-up-right"></i>
+            </a>
           </article>
 
 
